@@ -34,8 +34,8 @@ public class ReviewyourBook {
     @Then("Customer should see review result")
     public void customer_should_see_review_result() throws InterruptedException {
         Thread.sleep(1000);
-        String gettext = chrome.findElement(By.cssSelector(".review-text")).getText();
-        assertEquals("123",gettext);
+        String gettext = chrome.findElement(By.cssSelector(".result")).getText();
+        assertEquals("Product review is successfully added.",gettext);
 
     }
 

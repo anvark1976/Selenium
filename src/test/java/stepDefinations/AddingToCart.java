@@ -44,8 +44,8 @@ public class AddingToCart {
         chrome.findElement(By.cssSelector(".button-2.product-box-add-to-cart-button")).click();
 
     }
-    @Then("Shopping cart should get updated \\({int}) to \\({int})")
-    public void shopping_cart_should_get_updated_to(Integer int1, Integer int2) throws InterruptedException {
+    @Then("Shopping cart should get updated")
+    public void shopping_cart_should_get_updated(Integer int1, Integer int2) throws InterruptedException {
         Thread.sleep(2000);
         String one = chrome.findElement(By.cssSelector(".cart-qty")).getText();
         assertEquals("(1)",one);

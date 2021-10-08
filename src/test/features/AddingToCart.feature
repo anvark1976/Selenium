@@ -8,4 +8,4 @@ Feature: Adding to cart
     Then  Customer is on search page
 
     When  Customer clicks on add to cart
-    Then  Shopping cart should get updated (0) to (1)
+    Then  Shopping cart should get updated

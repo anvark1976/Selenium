@@ -1,6 +1,6 @@
-Feature: ShareaBook
+Feature: Sharea a Book with a friend using email
   @smoke
-  Scenario: Share a book with freiend
+  Scenario: Share a book with friend
 
 
 
